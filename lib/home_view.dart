@@ -85,7 +85,7 @@ class HomeView extends StatelessWidget {
                       GestureDetector(
                         // splashColor: Colors.red,
                         onTap: () {
-                          print('onTap');
+                          debugPrint('onTap');
                         },
                         child: const Icon(Icons.bookmark_border_rounded),
                       ),
